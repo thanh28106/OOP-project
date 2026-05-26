@@ -16,8 +16,6 @@ public class Basket {
     public Basket() {
         centerX = 175f;  
     }
-
-    // Replace setFromMouseWorld with this method
     public void move(float direction, float dt) {
         centerX += direction * MOVE_SPEED * dt;
         // Keep the basket within screen bounds
